@@ -1,14 +1,21 @@
 {
-  "name": "nataours",
+  "name": "katours",
   "version": "1.0.0",
-  "description": "Loading page for natours version harry",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaliciousHex/natarous.git"
   },
   "author": "Harry Ermawan",
   "license": "ISC",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/MaliciousHex/natarous/issues"
+  },
+  "homepage": "https://github.com/MaliciousHex/natarous#readme",
   "devDependencies": {
     "node-sass": "^4.7.2"
   }
